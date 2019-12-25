@@ -119,7 +119,6 @@ i {
 }
 .block {
   display: flex;
-  /* justify-content: ; */
   flex-wrap: wrap;
   margin: 10px 0px;
 }
@@ -128,8 +127,6 @@ i {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* width: 350px; */
-  /* margin: 10px 100px 10px 0px; */
 }
 .head {
   background: var(--bgImage);
@@ -189,4 +186,9 @@ i {
   width: 30px;
   background: var(--secondaryColor);
   border-radius: 50%;
+}
+@media screen and (max-width: 800px) {
+  .app {
+    width: 100%;
+  }
 }

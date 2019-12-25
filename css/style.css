@@ -192,3 +192,8 @@ i {
     width: 100%;
   }
 }
+@media screen and (max-width: 400px) {
+  .bottom .block {
+    padding: 15px 10px;
+  }
+}
